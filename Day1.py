@@ -16,17 +16,14 @@ if __name__ == "__main__":
 
     diff_sum = 0
     for i in range(len(list_a)):
-        if list_a[i] >= list_b[i]:
-            diff_sum += list_a[i] - list_b[i]
-        else:
-            diff_sum += list_b[i] - list_a[i]
+        diff_sum += abs(list_a[i] - list_b[i])
 
-    print(diff_sum) # Correct
+    print(diff_sum)  # Correct
 
     # Part 2
     sim_sum = 0
     for i in range(len(list_a)):
         sim_sum += list_a[i] * list_b.count(list_a[i])
 
-    print(sim_sum) # Correct
+    print(sim_sum)  # Correct
 

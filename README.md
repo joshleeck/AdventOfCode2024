@@ -1,2 +1,2 @@
 # Advent of Code 2024
-Working repository for Advent of Code 2024. Speed is of the essence.
+Working repository for Advent of Code 2024.

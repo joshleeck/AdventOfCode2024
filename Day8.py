@@ -11,6 +11,7 @@ if __name__ == "__main__":
             line_list = list(line.strip())
             M.append(line_list)
 
+    # Clone array for Part 2
     M = np.array(M)
     N = np.empty([M.shape[0], M.shape[1]], dtype="str")
     N[:,:] = '!'
